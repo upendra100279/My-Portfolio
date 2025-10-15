@@ -7,7 +7,7 @@ import oracle from "../assets/oracle.png";
 import mongo from "../assets/mongodb.jpg";
 import Reacte from "../assets/reactjs.png";
 import SQLe from "../assets/Redux.svg";
-import gvCloudLogo from "../assets/gvCloudLogo.png";
+import gvCloudLogo from "../assets/gvcloudLogo.png";
 import gravitonLogo from "../assets/graviton.png";
 
 function Experience() {
