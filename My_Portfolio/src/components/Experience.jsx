@@ -7,7 +7,7 @@ import oracle from "../assets/oracle.png";
 import mongo from "../assets/mongodb.jpg";
 import Reacte from "../assets/reactjs.png";
 import SQLe from "../assets/Redux.svg";
-import gvCloudLogo from "../assets/gvcloudLogo.png";
+import innovgeistLogo from "../assets/innovgeistLogo";
 import gravitonLogo from "../assets/graviton.png";
 
 function Experience() {
@@ -24,10 +24,10 @@ function Experience() {
 
   const workExperience = [
     {
-      company: "GvCloud Secure Pvt Ltd",
-      logo: gvCloudLogo,
-      role: "Frontend Developer (Remote)",
-      duration: "April 2025 – September- 2025",
+      company: "Innovgeist",
+      logo: innovgeistLogo,
+      role: "Frontend Developer",
+      duration: "October 2025 – present",
       description: [
         "Implemented Redux state management and Material UI in React applications, improving scalability and user experience.",
         "Optimized database schemas and RESTful APIs with Node.js and MongoDB, boosting performance by 25% and reducing query response time",
@@ -36,16 +36,16 @@ function Experience() {
       ],
     },
     {
-      company: "Graviton Web Technologies",
+      company: "GravitonWeb Technology",
       logo: gravitonLogo,
-      role: "Frontend Web Developer Intern",
-      duration: "Dec 2023 - February 2024",
+      role: "Software Developer",
+      duration: "July 2024 - July 2025",
       description: [
-        "Developed and optimized data structures and algorithms for problem-solving, enhancing coding efficiency.",
-        "Worked on full-stack, gaining hands-on experience with front-end and back-end technologies.",
-        "Applied object-oriented programming (OOP) principles in designing scalable applications.",
-        "Gained proficiency in competitive programming using platforms like LeetCode and Codeforces.",
-        "Enhanced software development skills with hands-on exposure to industry-relevant technologies."
+        "Built Hola9 Classifieds platform using React.js, Redux, and Ant Design enhanced user acquisition by 20%.",
+        "Created e-commerce UI with secure checkout, improving transaction success rate by 18%.",
+        "Developed a real-time taxi booking system integrating REST APIs; reduced booking latency by 35%",
+        "Designed interactive dashboards to track user engagement, increasing feature adoption by 25%.",
+        " Collaborated on end-to-end lifecycle phases including requirement analysis, development, testing, and deployment monitoring."
       ],
     }
   ];
