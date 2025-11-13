@@ -7,7 +7,7 @@ import oracle from "../assets/oracle.png";
 import mongo from "../assets/mongodb.jpg";
 import Reacte from "../assets/reactjs.png";
 import SQLe from "../assets/Redux.svg";
-import innovgeistLogo from "../assets/innovgeistLogo";
+import innovgeistLogo from "../assets/innovgeistLogo.png";
 import gravitonLogo from "../assets/graviton.png";
 
 function Experience() {
