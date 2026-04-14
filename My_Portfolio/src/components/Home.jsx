@@ -94,10 +94,10 @@ function Home() {
                       <FaBrain className="text-2xl text-purple-400" />
                       <span className="text-purple-300 text-sm font-semibold">Machine Learning</span>
                     </div>
-                    <div className="flex items-center space-x-2 px-4 py-2 rounded-full border border-blue-500/30 bg-gray-900 shadow-lg shadow-blue-500/10 hover:scale-105 transition-all duration-300 cursor-pointer">
+                    {/* <div className="flex items-center space-x-2 px-4 py-2 rounded-full border border-blue-500/30 bg-gray-900 shadow-lg shadow-blue-500/10 hover:scale-105 transition-all duration-300 cursor-pointer">
                       <SiDotnet className="text-2xl text-blue-400" />
                       <span className="text-blue-300 text-sm font-semibold">.NET Backend</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
