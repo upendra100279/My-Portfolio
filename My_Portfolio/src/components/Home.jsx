@@ -84,11 +84,16 @@ function Home() {
                 {/* Technologies */}
                 <div className="space-y-2">
                   <h1 className="font-bold text-center text-gray-400">Currently working on</h1>
-                  <div className="flex space-x-5">
-                    <SiMongodb className="text-3xl text-green-400 hover:text-green-300 hover:scale-110 transition-transform duration-200 rounded-full border-[2px] border-green-900 p-1 cursor-pointer bg-gray-900" />
-                    <SiExpress className="text-3xl text-gray-300 hover:text-white hover:scale-110 transition-transform duration-200 rounded-full border-[2px] border-gray-700 p-1 cursor-pointer bg-gray-900" />
-                    <FaReact className="text-3xl text-blue-400 hover:text-blue-300 hover:scale-110 transition-transform duration-200 rounded-full border-[2px] border-blue-900 p-1 cursor-pointer bg-gray-900" />
-                    <FaNodeJs className="text-3xl text-green-300 hover:text-green-200 hover:scale-110 transition-transform duration-200 rounded-full border-[2px] border-green-900 p-1 cursor-pointer bg-gray-900" />
+                  <div className="flex flex-wrap justify-center md:justify-start gap-3">
+                    <span className="px-4 py-2 rounded-full border border-teal-500/30 bg-teal-500/10 text-teal-300 text-sm font-semibold shadow-sm hover:bg-teal-500/20 transition-colors">
+                      Computer Vision
+                    </span>
+                    <span className="px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-sm font-semibold shadow-sm hover:bg-purple-500/20 transition-colors">
+                      Machine Learning
+                    </span>
+                    <span className="px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-300 text-sm font-semibold shadow-sm hover:bg-blue-500/20 transition-colors">
+                      .NET Backend
+                    </span>
                   </div>
                 </div>
               </div>
