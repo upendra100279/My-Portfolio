@@ -9,6 +9,10 @@ import Reacte from "../assets/reactjs.png";
 import SQLe from "../assets/Redux.svg";
 import innovgeistLogo from "../assets/innovgeistLogo.png";
 import gravitonLogo from "../assets/graviton.png";
+import node from "../assets/node.png";
+import express from "../assets/express.png";
+import python from "../assets/python.webp";
+import fieldassistLogo from "../assets/fieldassistLogo.png";
 
 function Experience() {
   const cardItem = [
@@ -20,14 +24,29 @@ function Experience() {
     { id: 6, logo: mongo, name: "MongoDB" },
     { id: 7, logo: Reacte, name: "React" },
     { id: 8, logo: SQLe, name: "Redux" },
+    { id: 9, logo: node, name: "Node.js" },
+    { id: 10, logo: express, name: "Express.js" },
+    { id: 11, logo: python, name: "Computer Vision" },
   ];
 
   const workExperience = [
     {
+      company: "FieldAssist",
+      logo: fieldassistLogo,
+      role: "Machine Learning Engineer – Computer Vision",
+      duration: "December 2025 - Present",
+      description: [
+        "Led a cross-functional team to develop COVID-19 prediction systems.",
+        "Built and deployed a sentiment analysis tool for social media data.",
+        "Leveraged modern computer vision algorithms to create scalable data analytics solutions.",
+        "Crafted robust machine learning algorithms focused on improving forecasting and predictive capabilities.",
+      ],
+    },
+    {
       company: "Innovgeist",
       logo: innovgeistLogo,
       role: "Frontend Developer",
-      duration: "October 2025 – present",
+      duration: "October 2025 - December 2025",
       description: [
         "Implemented Redux state management and Material UI in React applications, improving scalability and user experience.",
         "Optimized database schemas and RESTful APIs with Node.js and MongoDB, boosting performance by 25% and reducing query response time",
@@ -38,7 +57,7 @@ function Experience() {
     {
       company: "GravitonWeb Technology",
       logo: gravitonLogo,
-      role: "Software Developer",
+      role: "Software Engineer Intern",
       duration: "July 2024 - July 2025",
       description: [
         "Built Hola9 Classifieds platform using React.js, Redux, and Ant Design enhanced user acquisition by 20%.",
