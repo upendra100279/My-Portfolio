@@ -13,9 +13,13 @@ import node from "../assets/node.png";
 import express from "../assets/express.png";
 import python from "../assets/python.webp";
 import fieldassistLogo from "../assets/fieldassistLogo.png";
+import dotnet from "../assets/dotnet.png";
+import csharp from "../assets/csharp.png";
 
 function Experience() {
   const cardItem = [
+    { id: 101, logo: dotnet, name: ".NET" },
+    { id: 102, logo: csharp, name: "C#" },
     { id: 1, logo: html, name: "HTML" },
     { id: 2, logo: css, name: "CSS" },
     { id: 3, logo: java, name: "Java" },

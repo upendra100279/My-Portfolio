@@ -9,7 +9,8 @@ import { FaTelegram } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa6";
+import { FaNodeJs, FaBrain, FaEye } from "react-icons/fa";
+import { SiDotnet } from "react-icons/si";
 import { ReactTyped } from "react-typed";
 
 function Home() {
@@ -84,16 +85,19 @@ function Home() {
                 {/* Technologies */}
                 <div className="space-y-2">
                   <h1 className="font-bold text-center text-gray-400">Currently working on</h1>
-                  <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                    <span className="px-4 py-2 rounded-full border border-teal-500/30 bg-teal-500/10 text-teal-300 text-sm font-semibold shadow-sm hover:bg-teal-500/20 transition-colors">
-                      Computer Vision
-                    </span>
-                    <span className="px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-sm font-semibold shadow-sm hover:bg-purple-500/20 transition-colors">
-                      Machine Learning
-                    </span>
-                    <span className="px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-300 text-sm font-semibold shadow-sm hover:bg-blue-500/20 transition-colors">
-                      .NET Backend
-                    </span>
+                  <div className="flex flex-wrap justify-center md:justify-start gap-4">
+                    <div className="flex items-center space-x-2 px-4 py-2 rounded-full border border-teal-500/30 bg-gray-900 shadow-lg shadow-teal-500/10 hover:scale-105 transition-all duration-300 cursor-pointer">
+                      <FaEye className="text-2xl text-teal-400" />
+                      <span className="text-teal-300 text-sm font-semibold">Computer Vision</span>
+                    </div>
+                    <div className="flex items-center space-x-2 px-4 py-2 rounded-full border border-purple-500/30 bg-gray-900 shadow-lg shadow-purple-500/10 hover:scale-105 transition-all duration-300 cursor-pointer">
+                      <FaBrain className="text-2xl text-purple-400" />
+                      <span className="text-purple-300 text-sm font-semibold">Machine Learning</span>
+                    </div>
+                    <div className="flex items-center space-x-2 px-4 py-2 rounded-full border border-blue-500/30 bg-gray-900 shadow-lg shadow-blue-500/10 hover:scale-105 transition-all duration-300 cursor-pointer">
+                      <SiDotnet className="text-2xl text-blue-400" />
+                      <span className="text-blue-300 text-sm font-semibold">.NET Backend</span>
+                    </div>
                   </div>
                 </div>
               </div>
