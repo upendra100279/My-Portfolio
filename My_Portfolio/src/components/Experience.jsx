@@ -36,10 +36,10 @@ function Experience() {
       role: "Machine Learning Engineer – Computer Vision",
       duration: "December 2025 - Present",
       description: [
-        "Led a cross-functional team to develop COVID-19 prediction systems.",
-        "Built and deployed a sentiment analysis tool for social media data.",
-        "Leveraged modern computer vision algorithms to create scalable data analytics solutions.",
-        "Crafted robust machine learning algorithms focused on improving forecasting and predictive capabilities.",
+        "Utilized advanced data annotation platforms like Roboflow to curate and prepare high-quality datasets for robust computer vision models.",
+        "Engineered and trained multiple iterations of machine learning models across diverse datasets to optimize performance for varied use cases.",
+        "Analyzed comprehensive model accuracy reports and implemented strategic refinements, significantly boosting overall model precision and recall.",
+        "Developed custom internal utilities, including an automated inference tool leveraging historical data, to streamline operational workflows and accelerate development cycles."
       ],
     },
     {
