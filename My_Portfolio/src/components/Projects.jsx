@@ -5,9 +5,20 @@ import Covid19 from "../assets/proj2.png";
 import SentimentAnalysis from "../assets/sentimentsphare.jpg";
 import imageApp from "../assets/premium-pixel-vault.gif";
 import paymentGatway from "../assets/paymentgatway.jpg";
+import DefectDetection from "../assets/defectDetection.png";
 
 function Projects() {
   const cardItem = [
+    {
+      id: 7,
+      logo: DefectDetection,
+      name: "Industrial Manufacturing Defects Detection System",
+      liveLink: "https://industrial-manufacturing-defects-de.vercel.app",
+      sourceCode:
+        "https://github.com/upendra100279/Industrial-Manufacturing-Defects-Detection-System",
+      description:
+        "AI-powered defect detection system for industrial manufacturing using YOLOv8, FastAPI, and React. Detects 22 defect types across metal, tile, zipper, and casting products in real-time from images and live webcam feed.",
+    },
     {
       id: 1,
       logo: SynEduLogo,
