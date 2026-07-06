@@ -56,7 +56,7 @@ function Footer() {
             {/* Footer Text */}
             <div className="mt-8 border-t border-gray-300 pt-8 flex flex-col items-center">
               <p className="text-md text-gray-700 font-light">
-                &copy; 2025 Your Company. All rights reserved.
+                &copy; 2025 Upendra Chauhan. All rights reserved.
               </p>
               <p className="text-sm text-gray-500 font-medium">
                 Built by <span className="text-blue-600">Ramkrishna Singh</span>
